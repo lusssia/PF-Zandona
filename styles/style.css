@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg-op-green{
+    background-color:#1abc9c93 ;
+}
+
+.navbar-brand{
+    color: #ffffff;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+
+/* INDEX */
+
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-size: auto; 
+}
+
+main{
+  height: 100%;
+}
+
+p{
+    padding: 0px 50px;
+}
+
+
+/* FOOTER */
+
+
+.footer{
+    background-color: #71ffd9ae;
+    text-align: center;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3{
+    font-size: 15px;
+
+}
+
+footer div ul{
+display: flex;
+justify-content: center;
+gap: 10px;
+padding-right: 15px;
+}
+
+.fox{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+/* PRODUCTOS */
+
+.info-productos{
+  padding: 30px;
+}
+
+.productos-titulo{
+  background-color: rgba(132, 244, 232, 0.597);
+  padding: 20px 0 20px 0;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  text-align: center;
+}
+
+.container-productos{
+  padding: 50px 50px 50px 50px;
+}
+
+/* RECETAS */
+
+.info-recetas{
+  padding: 30px;
+}
+
+.recetas-titulo{
+    background-color: rgba(132, 244, 232, 0.597);
+    padding: 20px 0 20px 0;
+  
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 100%;
+    text-align: center;
+}
+
+.container-recetas img{
+  text-align: center; 
+}
+
+/* RESTAURANTES */
+
+.info-restaurantes{
+  height: 55vh;
+
+  font-size: 30px;
+  gap: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-restaurantes p{
+  font-size: 20px;
+}
+
+.restaurante-titulo{
+  background-color: rgba(132, 244, 232, 0.597);
+  padding: 20px 0 20px 0;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  text-align: center;
+}
+
+.marcas{
+  margin: 50px;
+  justify-content: space-around
+  ;
+  display: flex;
+  text-align: center;
+}
+
+.fox{
+ width: 300px;
+}
+
+.craft{
+  width: 300px;
+}
+
+.sushi{
+  width: 300px;
+}
+
+.portada{
+  justify-content: center;
+}
+
+/* ANIMACIONES */
+
+/* h1 index*/
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+/* TEXT */
+
+.scale-up-ver-bottom {
+	-webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  @keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  
+  /* FOOTER */
+
+  .footer{
+    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  @keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+
+  .marcas{
+      -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+              animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+  
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.info-restaurantes{
+  -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-ver-bottom {
+0% {
+-webkit-transform: scaleY(0.4);
+      transform: scaleY(0.4);
+-webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+}
+100% {
+-webkit-transform: scaleY(1);
+      transform: scaleY(1);
+-webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+}
+}
+@keyframes scale-up-ver-bottom {
+0% {
+-webkit-transform: scaleY(0.4);
+      transform: scaleY(0.4);
+-webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+}
+100% {
+-webkit-transform: scaleY(1);
+      transform: scaleY(1);
+-webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+}
+}
+
