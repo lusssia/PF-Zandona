@@ -1,0 +1,29 @@
+/* FOOTER */
+
+
+.footer{
+    background-color: #71ffd9ae;
+    text-align: center;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+    
+    h3{
+        font-size: 15px;
+    
+    }
+}
+
+
+footer div ul{
+display: flex;
+justify-content: center;
+gap: 10px;
+padding-right: 15px;
+}
+
+.fox{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
